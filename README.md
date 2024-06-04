@@ -18,10 +18,10 @@
 -  => if the first the key to start the game, then nextSequence is called: if(!gameStart) {  $("#level-title").text( "Level 0")  nextSequence(); gameStart= true;
 -  => You can see  the level change to level 1 and the red button is chosen randomly by sound and effect and it is pushed to gamePattern container : gamePattern = ["red"]
 -  => User clicks the red button: $(".btn").click (function() {?})
--  => You can see the red button has sound and animation effect and it is pushed to userChosenPattern container and checkAnswer(0) is called:userClickednPattern =["red"]
--  => The last of userClickedPattern index is same as gamePattern index and length is same, so nextSequence is called after 1second
+-  => You can see the red button has sound and animation effect and it is pushed to userClickedPattern container and checkAnswer(0) is called: userClickedPattern =["red"]
+-  => The last of userClickedPattern index(0) is same as gamePattern index(0) and length is same, so nextSequence is called after 1 second
 -  => You can see the level change to level 2 and the green button is chosen randomly : gamePattern =["red", "green"]
--  => User clicks the red button: userCLickedPattern = ["red"] (by nextSequence function this container is empty and only red is contained now)
+-  => User clicks the red button: userClickedPattern = ["red"] (by nextSequence function this container is empty and only red is contained now)
 -  => checkAnswer (0) is called and first if is satisfied but second if is not since they have different length, so nothing happen until user clikes a button
 -  => User clicks green button: userClickedPattern =["red", "green"] so both if are statisfied so nextSequence is called
 -  => You can see blue is chosen randomly : leve 3,  gamePattern = ["red", "green", "blue"], userClickedPattern = []
