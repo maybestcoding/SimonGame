@@ -3,7 +3,7 @@
 1. Press a key to start this game: $(document).keydown(?)
 - Only call nextSequence() on the first keypress, so in order to not to call it again you shoud track if the game start or not
  
-2.Excute nextSecuence function if game hasn't started yet
+2. Excute nextSecuence function if game hasn't started yet
  - Level 1...
  - One of colour buttons is chosen randomly and display fadeIn and fadeOut effect on the button and also play sound accordingly 
  - randomChoseColour is pushed to gamePattern
@@ -13,7 +13,7 @@
 - Check if user chooses the right color by checkAnswer function
 - play sound accordingly and give some animation effect by animatePress function
 
-7. Let's play
+4. Let's play
 -  Press a key to start : $(document).keydown(function () {})
 -  => if the first the key to start the game, then nextSequence is called: if(!gameStart) {  $("#level-title").text( "Level 0")  nextSequence(); gameStart= true;
 -  => You can see  the level change to level 1 and the red button is chosen randomly by sound and effect and it is pushed to gamePattern container : gamePattern = ["red"]
