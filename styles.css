@@ -69,3 +69,15 @@ body {
   color:white;
   font-size:12px;
 }
+@media (max-width: 680px) {
+  .btn {
+   margin: 15px;
+  height: 150px;
+  width: 1500px;
+  }
+  #level-title { 
+ font-size: 2rem;
+
+}
+}
+
